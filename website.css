@@ -1,0 +1,159 @@
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url("fonts/SFPRODISPLAYBOLD.OTF");
+}
+@font-face {
+  font-family: 'Hagrid';
+  src: url("fonts/HagridText-Light.otf");
+}
+@font-face {
+  font-family: 'SFP';
+  src: url("fonts/FontsFree-Net-SFProDisplay-RegularItalic.ttf");
+}
+@font-face {
+  font-family: "SFP Bold";
+  src: url("fonts/SFPRODISPLAYSEMIBOLDITALIC.OTF");
+}
+
+
+.BG { 
+  background-color: black ; 
+  position: absolute;
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 90vh;
+  text-align: center; /* Center the content horizontally */
+  margin: 0;
+}
+
+.BODY1{ 
+  margin: 0 ; /* Remove whitespace around edges */
+  padding: 0 ; /*Remove whitespace around edges */
+}
+
+.aboutMe {
+  font-size: 24px; /* Adjust the size as needed */
+  font-family: 'SF Pro Display';
+  color: white;
+  border-style: none; 
+  background-color: transparent ; /* transparent background */
+  position: absolute; /* Add position property */
+  top: 50%; /* Adjust the top position */
+  left: 50%; /* Adjust the left position */
+  transform: translate(200%, -1350%); /* Center the button */
+  transition: .75s;
+}
+.aboutMe:hover {   
+  cursor: pointer;
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    /* Green glow */
+    0 0 42px rgb(255, 255, 255),
+    0 0 82px rgb(255, 255, 255),
+    0 0 92px rgb(210, 212, 255),
+    0 0 102px rgb(255, 255, 255),
+    0 0 151px rgb(255, 255, 255);
+}
+.myWork {
+  font-size: 24px; /* Adjust the size as needed */
+  font-family: 'SF Pro Display';
+  color: white;
+  border-style: none; 
+  background-color: transparent ; /* transparent background */
+  position: absolute; /* Add position property */
+  top: 50%; /* Adjust the top position */
+  left: 50%; /* Adjust the left position */
+  transform: translate(400%, -1350%); /* Center the button */
+  transition: .75s;
+}
+.myWork:hover {   
+  cursor: pointer;
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    /* Green glow */
+    0 0 42px rgb(255, 255, 255),
+    0 0 82px rgb(255, 255, 255),
+    0 0 92px rgb(210, 212, 255),
+    0 0 102px rgb(255, 255, 255),
+    0 0 151px rgb(255, 255, 255);
+}
+.socials {
+  font-size: 24px; /* Adjust the size as needed */
+  font-family: 'SF Pro Display';
+  color: white;
+  border-style: none; 
+  background-color: transparent ; /* transparent background */
+  position: absolute; /* Add position property */
+  top: 50%; /* Adjust the top position */
+  left: 50%; /* Adjust the left position */
+  transform: translate(680%, -1350%); /* Center the button */
+  transition: .75s;
+}
+.socials:hover { 
+  cursor: pointer;
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    /* Green glow */
+    0 0 42px rgb(255, 255, 255), 
+    0 0 92px rgb(210, 212, 255),
+    0 0 102px rgb(255, 255, 255),
+    0 0 151px rgb(255, 255, 255); 
+    background-position: center center;
+    opacity: 1;
+}
+
+.Home{    
+  display: block;
+  object-fit: cover;
+  scale: 11%; 
+  transform: translate(4850%,-230%); 
+  transition: 1s;
+  overflow: visible;
+  
+
+  
+
+}
+.Home:hover{ 
+ cursor: pointer;
+ 
+ 
+}
+
+.One{
+  font-size: 112px; /* Adjust the size as needed */
+  font-family: 'Hagrid';
+  color: white;
+  border-style: none; 
+  background-color: transparent ; /* transparent background */
+  position: absolute; /* Add position property */
+  top: 175%; /* Adjust the top position */
+  left: -30%; /* Adjust the left position */
+  transform: translate(680%, -1350%); /* Center the button */
+}
+
+.textPageOne { 
+  font-size: 16px; /* Adjust the size as needed */
+  font-family: 'SFP' ;  
+  color: white;
+  border-style: none; 
+  background-color: transparent ; /* transparent background */
+  position: absolute; /* Add position property */
+  top: 55%; /* Adjust the top position */   
+  left: 14.5%; /* Adjust the left position */
+  line-height: 1.5;
+  opacity: .8;
+  
+}
+
+
