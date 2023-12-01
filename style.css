@@ -1,0 +1,342 @@
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url("fonts/SFPRODISPLAYBOLD.OTF");
+}
+@font-face {
+  font-family: 'Hagrid';
+  src: url("fonts/HagridText-Light.otf");
+}
+@font-face {
+  font-family: 'SFP';
+  src: url("fonts/FontsFree-Net-SFProDisplay-RegularItalic.ttf");
+}
+@font-face {
+  font-family: "SFP Bold";
+  src: url("fonts/SFPRODISPLAYSEMIBOLDITALIC.OTF");
+}
+@font-face {
+  font-family: 'SFP Bold';
+  src: url('fonts/SFPRODISPLAYBOLD.OTF');
+}
+
+
+.BG { 
+  background-color: black ; 
+  position: absolute;
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 90vh;
+  text-align: center; /* Center the content horizontally */
+  margin: 0;
+}
+
+.BODY1{ 
+  margin: 0px ; /* Remove whitespace around edges */
+  padding: 0px ; /*Remove whitespace around edges */
+  background-color: rgba(17,18,18,255);
+  cursor: url('path-to-circle-cursor.png') 16 16, auto;  
+}
+
+.aboutMe {
+  font-size: 24px; /* Adjust the size as needed */
+  font-family: 'SF Pro Display';
+  color: white;
+  border-style: none; 
+  background-color: transparent ; /* transparent background */
+  position: absolute; /* Add position property */
+  top: 50%; /* Adjust the top position */
+  left: 50%; /* Adjust the left position */
+  transform: translate(200%, -1350%); /* Center the button */
+  transition: .75s;
+}
+.aboutMe:hover {   
+  cursor: pointer;
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    /* Green glow */
+    0 0 42px rgb(255, 255, 255),
+    0 0 82px rgb(255, 255, 255),
+    0 0 92px rgb(210, 212, 255),
+    0 0 102px rgb(255, 255, 255),
+    0 0 151px rgb(255, 255, 255);
+}
+.myWork {
+  font-size: 24px; /* Adjust the size as needed */
+  font-family: 'SF Pro Display';
+  color: white;
+  border-style: none; 
+  background-color: transparent ; /* transparent background */
+  position: absolute; /* Add position property */
+  top: 50%; /* Adjust the top position */
+  left: 50%; /* Adjust the left position */
+  transform: translate(400%, -1350%); /* Center the button */
+  transition: .75s;
+}
+.myWork:hover {   
+  cursor: pointer;
+  color: #fff;
+  background-image: url('path-to-noise-texture.png'); /* Replace 'path-to-noise-texture.png' with the actual path to your noise texture image */
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    /* Green glow */
+    0 0 42px rgb(255, 255, 255),
+    0 0 82px rgb(255, 255, 255),
+    0 0 92px rgb(210, 212, 255),
+    0 0 102px rgb(255, 255, 255),
+    0 0 151px rgb(255, 255, 255);
+}
+.socials {
+  font-size: 24px; /* Adjust the size as needed */
+  font-family: 'SF Pro Display';
+  color: white;
+  border-style: none; 
+  background-color: transparent ; /* transparent background */
+  position: absolute; /* Add position property */
+  top: 50%; /* Adjust the top position */
+  left: 50%; /* Adjust the left position */
+  transform: translate(680%, -1350%); /* Center the button */
+  transition: .75s;
+}
+.socials:hover { 
+  cursor: pointer;
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    /* Green glow */
+    0 0 42px rgb(255, 255, 255), 
+    0 0 92px rgb(210, 212, 255),
+    0 0 102px rgb(255, 255, 255),
+    0 0 151px rgb(255, 255, 255); 
+    background-position: center center;
+    opacity: 1;
+    user-select: none;
+  
+}
+
+.Home{    
+  display: block;
+  object-fit: cover;
+  scale: 11%; 
+  transform: translate(4850%,-235%);
+  transition: 1s;
+  overflow: visible;
+  user-select: none;
+  
+}
+.Home:hover{ 
+ cursor: pointer;
+ 
+ 
+}
+
+.One{
+  font-size: 100px; /* Adjust the size as needed */ 
+  opacity: 0;
+  font-family: 'Hagrid';
+  color: white;
+  border-style: none; 
+  background-color: transparent ; /* transparent background */
+  position: absolute; /* Add position property */
+  top: 13%; /* Adjust the top position */
+  left: 15%; /* Adjust the left position */
+  user-select: none;
+  
+}
+
+.textPageOne { 
+  font-size: 16px; /* Adjust the size as needed */
+  font-family: 'SFP' ;  
+  color: white;
+  border-style: none; 
+  background-color: transparent ; /* transparent background */
+  position: absolute; /* Add position property */
+  top: 63%; /* Adjust the top position */   
+  left: 15.5%; /* Adjust the left position */
+  line-height: 1.5;
+  opacity: .8;
+  
+}
+
+.boldPageOne { 
+  font-size: 350px; /* Adjust the size as needed */
+  font-family: 'SFP Bold' ;  
+  border-style: none; 
+  background-color: transparent ; /* transparent background */
+  position: absolute; /* Add position property */
+  top: -20%; /* Adjust the top position */   
+  left: 13%; /* Adjust the left position */
+  line-height: 1.5; 
+  -webkit-text-stroke-width: 3px; 
+  color: transparent ; 
+  background-image: linear-gradient(transparent, transparent); 
+  opacity: 1;
+  background-image: url('path-to-noise-texture.png'); /* Replace 'path-to-noise-texture.png' with the actual path to your noise texture image */
+  background-size: cover;
+  background-repeat: repeat;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    /* Green glow */
+    0 0 42px rgb(255, 255, 255), 
+    0 0 92px rgb(210, 212, 255),
+    0 0 102px rgb(255, 255, 255),
+    0 0 151px rgb(255, 255, 255); 
+  user-select: none;
+  animation: flicker 1s;
+  letter-spacing: 0; /* Remove extra spacing between letters */
+  transition: opacity 2s;
+  animation: opacityTransition 5s linear 1s forwards; /* Adjust the duration and delay as needed */
+}
+
+@keyframes opacityTransition {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: .7;
+  }
+}
+.letter-C{
+  margin-left: -70px;
+  padding: 0px;
+}
+.letter-R{ 
+  margin: -70px;
+  padding: 0px;
+}
+.letter-E1{
+  margin-left: 0px;
+  padding: 0px;
+}
+.letter-E2{
+  margin-left: -70px;
+  padding: 0px;
+}
+.letter-D{
+  margin: -70px;
+  padding: 0px;
+}
+.letter-S{
+  margin-left: -70px;
+  padding: 0px;
+}
+@keyframes flickerI {
+  0%, 27% , 95% , 60% {
+    opacity: 1;
+  } 
+  25%, 30% , 75%, 80% , 100% {
+    opacity: .2;
+  }
+}
+
+@keyframes flickeri {
+  0%, 15%, 22% , 50% , 78%  {
+    opacity: 1;
+  }
+  25%, 30% , 75%, 80% , 100% {  
+    opacity: 1;
+  }
+}
+@keyframes flickerD {
+  0%, 27% , 95% , 60% {
+    opacity: 1;
+  } 
+  25%, 30% , 75%, 80% , 100% {
+    opacity: .2;
+  }
+}
+@keyframes flickerR {
+  0%, 27% , 95% , 60% {
+    opacity: 1;
+  } 
+  25%, 30% , 75%, 80% , 100% {
+    opacity: .2;
+  }
+}
+
+@keyframes flickerE1 {
+  0%, 27% , 95% , 60% {
+    opacity: 1;
+  } 
+  25%, 30% , 75%, 80% , 100% {
+    opacity: .2;
+  }
+}
+
+@keyframes flickerE2 {
+  0%, 27% , 95% , 60% {
+    opacity: 1;
+  } 
+  25%, 30% , 75%, 80% , 100% {
+    opacity: .2;
+  }
+}
+
+@keyframes flickerS {
+  0%, 27% , 95% , 60% {
+    opacity: 1;
+  } 
+  25%, 30% , 75%, 80% , 100% {
+    opacity: .2;
+  }
+}
+
+@keyframes flickerC {
+  0%, 27% , 95% , 60% {
+    opacity: 1;
+  } 
+  25%, 30% , 75%, 80% , 100% {
+    opacity: .2;
+  }
+}
+/* Apply individual keyframe animations to each letter */
+.boldPageOne .letter-I {
+  animation: flickerI .5s , alternate 0.2 ;
+}
+.boldPageOne .letter-D {
+  animation: flickerI .5s ,alternate 0.5;
+}
+.boldPageOne .letter-i {
+  animation: flickerI .6s ,alternate 1 ;
+  
+}
+
+.boldPageOne .letter-R {
+  animation: flickerR .4s ,alternate 0.8;
+}
+
+.boldPageOne .letter-D {
+  animation: flickerD .5s ,alternate 0.2;
+}
+
+.boldPageOne .letter-E1 {
+  animation: flickerE1 .5s ,alternate 1.2;
+}
+.boldPageOne .letter-E2 {
+  animation: flickerE2 .4s ,alternate .5;
+}
+
+.boldPageOne .letter-S {
+  animation: flickerS .4s ,alternate 0.2;
+}
+
+.boldPageOne .letter-C {
+  animation: flickerC .3s,alternate 0.2 ;
+}
+
+canvas{ 
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 130;
+
+}

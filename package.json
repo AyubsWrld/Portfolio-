@@ -1,0 +1,21 @@
+{
+  "name": "myproject",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "serve" 
+  },
+  "devDependencies": {
+    "vite": "^5.0.0" ,
+    "serve" : "^13.0.2"
+  },
+  "dependencies": {
+    "three": "^0.159.0"
+  }
+  
+  
+}
